@@ -3,7 +3,7 @@
 ## Description
 
 This application captures a video stream from the default camera,
-performs real-time processing, encodes the stream to H264,
+performs real-time processing, encodes the stream to a H264 file
 and displays the processed output.
 
 ---
@@ -13,6 +13,8 @@ and displays the processed output.
 The project works on Windows.
 
 Install "Developer PowerShell for VS 2022" or newer.
+
+Inside the root folder of the repository, create 2 folders: the "lib" and the "build" folders.
 
 Download https://github.com/opencv/opencv/releases/download/4.12.0/opencv-4.12.0-windows.exe. On double-clicking, it will self-extract a folder "opencv".
 Copy the "opencv" folder into the "lib" folder inside the project. Open the "folder_tree.png" file to check out how the intial folder structure should look like.
